@@ -3,6 +3,7 @@
     "description": "Auto activity log for Laravel 5.x",
     "keywords": ["log", "laravel"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "beaplat",
