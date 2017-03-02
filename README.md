@@ -2,11 +2,35 @@
 
 ## Installation
 
-Run `composer require beaplat/activity`
+Run the following command to install
 
-Run `php artisan vendor:publish`
+```
+composer require beaplat/activity
+```
 
-Run `php artisan migrate`
+Open your `config/app.php` and add the following to the `providers` array
+
+```
+Beaplat\Activity\ActivityServiceProvider::class,
+```
+
+In the same `config/app.php` and add the following to the `aliases` array
+
+```
+'Activity' => Beaplat\Activity\Facades\Activity::class,
+```
+
+Run the command below to publish the migration file
+
+```
+php artisan vendor:publish
+```
+
+Run it with the artisan migrate command
+
+```
+php artisan migrate
+```
 
 ## Use
 
