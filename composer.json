@@ -9,7 +9,9 @@
             "email": "beaplat@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "laravel/framework": "5.*"
+    },
     "autoload": {
         "psr-4": {
             "Beaplat\\Activity\\": "src/"
