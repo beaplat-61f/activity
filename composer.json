@@ -1,0 +1,16 @@
+{
+    "name": "beaplat/activity",
+    "description": "Auto activity log for Laravel 5.x",
+    "authors": [
+        {
+            "name": "beaplat",
+            "email": "beaplat@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Beaplat\\Activity\\": "src/"
+        }
+    }
+}
