@@ -4,7 +4,7 @@
     "keywords": ["log", "laravel"],
     "license": "MIT",
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": false,
     "authors": [
         {
             "name": "beaplat",
