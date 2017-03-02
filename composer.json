@@ -1,6 +1,8 @@
 {
     "name": "beaplat/activity",
     "description": "Auto activity log for Laravel 5.x",
+	"keywords": ["log", "laravel"],
+    "license": "MIT",
     "authors": [
         {
             "name": "beaplat",
