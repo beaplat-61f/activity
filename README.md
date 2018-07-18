@@ -44,7 +44,7 @@ use Beaplat\Activity\ActivityTrait;
 
 class Post extends Model
 {
-	use ActivityTrait;
+    use ActivityTrait;
 
     protected $guarded = ['id'];
 }
